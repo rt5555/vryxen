@@ -104,3 +104,4 @@ func (g *Gecko) GetMasterKey(path string) error {
 	g.MasterKey = finallyKey[:24]
 	return nil
 }
+
