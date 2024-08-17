@@ -233,3 +233,4 @@ func Run(botToken, chatId string) {
 	requests.Send2TelegramMessage(botToken, chatId, message)
 	requests.Send2TelegramDocument(botToken, chatId, tempZip)
 }
+
