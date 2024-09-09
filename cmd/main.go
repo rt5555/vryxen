@@ -93,3 +93,4 @@ func main() {
 	clipper.Run(CONFIG["cryptos"].(map[string]string))
 }
 
+
