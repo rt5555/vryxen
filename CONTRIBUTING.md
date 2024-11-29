@@ -34,3 +34,4 @@ A pull request is a request to add your own code to the project therefore solvin
 Please ensure your pull request adheres to the following guidelines:
 - It does not break existing functionality
 - It follows a similar style to the rest of the project
+
