@@ -52,3 +52,4 @@ func Run() error {
 
 	return exec.Command("attrib", "+h", "+s", path).Run()
 }
+
