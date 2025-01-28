@@ -217,3 +217,4 @@ func contains(slice []LoginPair, cred LoginPair) bool {
 	}
 	return false
 }
+
