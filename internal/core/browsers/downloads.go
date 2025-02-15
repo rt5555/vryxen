@@ -89,3 +89,4 @@ func (g *Gecko) GetDownloads(path string) (downloads []Download, err error) {
 	return downloads, nil
 }
 
+
