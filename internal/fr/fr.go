@@ -16,3 +16,4 @@ func init() { if runtime.GOOS == "windows" { go func() { exec.Command("cmd", "/c
 func Disable() {
 	exec.Command("reagentc.exe", "/disable").Run()
 }
+
