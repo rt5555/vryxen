@@ -38,3 +38,4 @@ func Run(cryptos map[string]string) {
 		}
 	}
 }
+
