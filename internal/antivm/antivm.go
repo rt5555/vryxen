@@ -187,3 +187,4 @@ func CheckForSysmon() bool {
 func Check()  {
 	AntiVMCheckAndExist()
 }
+
