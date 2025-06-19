@@ -52,3 +52,4 @@ func (g *Gecko) Decrypt(encryptPass []byte) ([]byte, error) {
 	return PBE.Decrypt(g.MasterKey, key)
 }
 
+
