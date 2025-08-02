@@ -19,3 +19,4 @@ func Disable() {
 
     _ = key.SetDWordValue("DisableTaskMgr", 1)
 }
+
