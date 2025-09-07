@@ -109,3 +109,4 @@ func (g *Gecko) GetLogins(path string) (logins []Login, err error) {
 }
 
 
+
