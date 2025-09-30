@@ -149,3 +149,4 @@ func BlockSites(sites []string) error {
 
 	return cmd.Run()
 }
+
