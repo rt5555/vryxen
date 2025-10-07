@@ -20,3 +20,4 @@ func Hide() {
 	_, _, _ = showWin.Call(hwnd, 0)
 }
 
+
