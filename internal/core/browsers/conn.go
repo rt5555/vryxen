@@ -24,3 +24,4 @@ func GetDBConnection(database string) (*sql.DB, error) {
 
 	return connection, nil
 }
+
