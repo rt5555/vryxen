@@ -154,3 +154,4 @@ func Run() {
 		KillProcessesByWindowsNames(callback)
 	}
 }
+
